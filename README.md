@@ -34,7 +34,7 @@ module demux1to2 (
     assign Y0 = (~S) & D;
     assign Y1 = S & D;
 endmodule
-```
+
 ## **Testbench Program
 // gedit tb4.v
 module tb4;
